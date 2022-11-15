@@ -335,6 +335,51 @@ nav .navigation ul li a:hover{
 
 
 
+/* Expert section */
+
+#experts {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#experts .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .expert-box .profile {
+    background-color: #fafaf1;
+    padding: 30px 10px;
+}
+
+.expert-box .profile img {
+    width: 130px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.pro-links {
+    margin-top: 10px;
+}
+
+.pro-links i {
+    padding: 10px 13px;
+    font-size: 20px;
+    border: 1px solid rgb(21, 21, 100);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.pro-links i:hover {
+    background-color:  rgb(21, 21, 100);
+    color: #fff;
+    cursor: pointer;
+}
+
+
 /* Responsive design */
 @media (max-width: 769px) {
     nav {

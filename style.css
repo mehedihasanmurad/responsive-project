@@ -83,6 +83,9 @@ nav .navigation ul li a{
     font-weight: 500;
     transition: 0.3s ease;
 }
+.navigation ul li .active {
+    color: #FDC938;
+}
 
 nav .navigation ul li a:hover{
     color: #FDC938;

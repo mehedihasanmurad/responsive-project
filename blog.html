@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design layout</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/6784d1998e.js" crossorigin="anonymous"></script>
+    <!-- jQuery link -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <!-- navigation -->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-regular fa-circle-xmark"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a  href="course.html">Courses</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+            </ul>
+           <img id="menu-btn" src="images/navbar1.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">  
+        <h2>Blog /</h2>
+    </section>
+
+
+    <!-- Blog Container -->
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Development In The Easier Way</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illum corrupti, modi dolor omnis molestias possimus odio doloribus sunt reiciendis laboriosam aliquid, dolores nam officia eligendi ea sit perferendis et!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Learn Web Development In The Easier Way</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illum corrupti, modi dolor omnis molestias possimus odio doloribus sunt reiciendis laboriosam aliquid, dolores nam officia eligendi ea sit perferendis et!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Learn Web Development In The Easier Way</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illum corrupti, modi dolor omnis molestias possimus odio doloribus sunt reiciendis laboriosam aliquid, dolores nam officia eligendi ea sit perferendis et!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4.png" alt="">
+                <h3>Learn Web Development In The Easier Way</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illum corrupti, modi dolor omnis molestias possimus odio doloribus sunt reiciendis laboriosam aliquid, dolores nam officia eligendi ea sit perferendis et!</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Font-end Developer</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">Javascript Hacks</a>
+            <hr>
+        </div>
+    </section>
+
+
+<!-- Footer section -->
+
+<footer id="footer">
+    <div class="footer-col">
+        <h6>Top Products</h6>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h6>Quick Links</h6>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>
+    </div>
+    <div class="footer-col">
+        <h6>Features</h6>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h6>Resources</h6>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h6>Newsletter</h6>
+        <p>You can trust us.we only send promo offers</p>
+        
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address" name="" id="">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright@2022 All rights reserved | This template is made by Tech2etc</p>
+        <div class="pro-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+</footer>
+
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    })
+
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    })
+</script>
+
+    
+</body>
+</html>

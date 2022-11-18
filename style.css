@@ -560,6 +560,23 @@ nav .navigation ul li a:hover{
 }
 
 
+#trusted-feature {
+    text-align: center;
+    padding: 8vw;
+}
+
+#trusted-feature .trusted-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#trusted-feature .trusted-img img {
+    width: 100px;
+    height: auto;
+}
+
 
 
 
